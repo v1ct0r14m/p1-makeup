@@ -1,0 +1,19 @@
+{
+  "name": "p1-makeup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v1ct0r14m/p1-makeup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v1ct0r14m/p1-makeup/issues"
+  },
+  "homepage": "https://github.com/v1ct0r14m/p1-makeup#readme"
+}
