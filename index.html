@@ -12,7 +12,7 @@
             <h2>COFFEE PICKER</h2>
             <div class='search'>
                 <input type="text" class="searchbar" placeholder="current city">
-                <button class="temp-today">let's see...</button>
+                <button class="temp-today">it is...</button>
             </div>
         </header>
 
@@ -23,14 +23,18 @@
                 <div class="description"></div>
                 <img src="" alt="" class="" />
             </div>
-            <select id="hot-or-iced">
-                <option selected>choose hot or iced</option>
+
             </select>
             <div class="coffee-container">
-                <h2>so you should have a </h2>
-                <button class="random">random</button>
-                <div class="coffee-result"></div>
+                <h2>so you should have a </h2>            
+                    <select id="hot-or-iced">
+                    <option selected hidden>choose hot or iced</option>
+                <div class="coffee-result">
+                <button class="pick-coffee">let's see...</button>
+                </div>
+                <button class="random">totally random coffee</button>
             </div>
+            
         </section>
     <script src="./assets/script.js"></script>
 </body>
