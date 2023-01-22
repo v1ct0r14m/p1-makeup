@@ -58,6 +58,8 @@ h1 {
 
 .coffee-container {
   color: #085b5b;
+  text-align: center;
+  align-items: center;
   justify-content: center;
 }
 
@@ -69,6 +71,7 @@ button {
   padding: 5px 7px;
   font-size: 18px;
   align-items: center;
+  margin: 7px;
 }
 
 .pick-coffee {
