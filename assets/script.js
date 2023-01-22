@@ -21,7 +21,6 @@
 //         document.querySelector(".temp").innerHTML = temp + "°F";
 //         document.querySelector('.description')
 
-const { response } = require("express")
 
        
         
@@ -62,7 +61,7 @@ class RandomCoffee {
         }
     }
 
-    document.querySelector('.hot').addEventListener("click", () => {
+    document.querySelector('.pick-coffee').addEventListener("click", () => {
         RandomCoffee.fetchFromApi()
     })
      

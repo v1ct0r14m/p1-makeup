@@ -1,0 +1,20 @@
+$fonts: 'Helvetica-Neue', 'sans-serif';
+
+body {
+    max-width: 1080px;
+    max-height: auto;
+    background-image: url('../images/coffee-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: $fonts;
+}
+
+.card {
+    background-color: #d8d8d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $fonts;
+}
+
