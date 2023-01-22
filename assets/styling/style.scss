@@ -1,20 +1,79 @@
-$fonts: 'Helvetica-Neue', 'sans-serif';
+$fonts: Helvetica, sans-serif;
+$primary-color: #f4d2a0;
+$secondary-color: #085b5b;
+$tertiary-color: #ffffff;
 
 body {
-    max-width: 1080px;
-    max-height: auto;
+    width: 857px;
+    height: auto;
     background-image: url('../images/coffee-bg.jpg');
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
+    background-repeat:repeat;
+    color: $tertiary-color;
     font-family: $fonts;
+    background-color: $secondary-color;
+}
+
+.search {
+    padding-bottom: 15px;
+}
+.searchbar {
+    padding: 7px;
+
 }
 
 .card {
-    background-color: #d8d8d8;
+    background-color: $primary-color;
     display: flex;
-    align-items: center;
+    width: 560px;
+    height: 560px;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     font-family: $fonts;
 }
+
+.temp-container {
+    font-family: $fonts;
+    align-items: center;
+    color: $tertiary-color;
+    justify-content: center;
+    display: inline-flex;
+    text-align: center;
+    background-color: $secondary-color;
+    padding: 0 7px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.weather {
+    padding-right: 10px;
+}
+
+.coffee-container {
+    color: $secondary-color;
+    justify-content: center;
+}
+
+button {
+    background-color: $primary-color;
+    color: $secondary-color;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 7px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.pick-coffee {
+    background-color: $secondary-color;
+    color: $primary-color
+}
+
+.random {
+    background-color: $secondary-color;
+    color: $primary-color
+}
+
 

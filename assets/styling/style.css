@@ -1,25 +1,74 @@
 body {
+  width: 857px;
+  height: auto;
   background-image: url("../images/coffee-bg.jpg");
-  font-family: "Helvetica-Neue", "sans-serif";
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  background-color: #085b5b;
 }
 
-body {
-  max-width: fit-content;
-  max-height: auto;
-  background-image: url('../images/coffee-bg.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  font-family: "Helvetica-Neue", "sans-serif";
+.search {
+  padding-bottom: 15px;
+}
+
+.searchbar {
+  padding: 7px;
 }
 
 .card {
-  background-color: #d8d8d8;
+  background-color: #f4d2a0;
   display: flex;
-  align-items: center;
+  width: 560px;
+  height: 560px;
   justify-content: center;
-  font-family: "Helvetica-Neue", "sans-serif";
+  align-items: center;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
 }
 
+.temp-container {
+  font-family: Helvetica, sans-serif;
+  align-items: center;
+  color: #ffffff;
+  justify-content: center;
+  display: inline-flex;
+  text-align: center;
+  background-color: #085b5b;
+  padding: 0 7px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.weather {
+  padding-right: 10px;
+}
+
+.coffee-container {
+  color: #085b5b;
+  justify-content: center;
+}
+
+button {
+  background-color: #f4d2a0;
+  color: #085b5b;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 7px;
+  font-size: 18px;
+  align-items: center;
+}
+
+.pick-coffee {
+  background-color: #085b5b;
+  color: #f4d2a0;
+}
+
+.random {
+  background-color: #085b5b;
+  color: #f4d2a0;
+}
 
 /*# sourceMappingURL=style.css.map */
