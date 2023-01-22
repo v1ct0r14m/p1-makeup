@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/v1ct0r14m/p1-makeup/issues"
   },
-  "homepage": "https://github.com/v1ct0r14m/p1-makeup#readme"
+  "homepage": "https://github.com/v1ct0r14m/p1-makeup#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
